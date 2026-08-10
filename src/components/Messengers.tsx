@@ -1,5 +1,5 @@
 import { WaIcon, TgIcon, MaxIcon } from "../icons";
-import { WA_LINK, TG_LINK, MAX_LINK } from "../data";
+import { WHATSAPP, TG_LINK, MAX_LINK } from "../data";
 
 const cls =
   "inline-flex items-center gap-2 rounded-full border border-graphite/15 bg-white px-4 py-2.5 text-sm font-semibold text-graphite transition hover:border-emerald hover:text-emerald";
@@ -17,7 +17,7 @@ export default function Messengers({ className = "", items = ["max", "tg", "wa"]
         <a href={TG_LINK} target="_blank" rel="noreferrer" aria-label="Telegram" className={cls}><TgIcon className={icon} />Telegram</a>
       )}
       {items.includes("wa") && (
-        <a href={WA_LINK} target="_blank" rel="noreferrer" aria-label="WhatsApp" className={cls}><WaIcon className={icon} />WhatsApp</a>
+        <a href={WHATSAPP} target="_blank" rel="noreferrer" aria-label="WhatsApp" className={cls}><WaIcon className={icon} />WhatsApp</a>
       )}
     </div>
   );

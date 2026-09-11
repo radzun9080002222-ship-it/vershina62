@@ -34,10 +34,10 @@ export default function Hero() {
             className="mt-1 block leading-[0.8] text-emerald text-[13vw] md:text-[66px]"
             style={{ fontFamily: "'Caveat', cursive" }}
           >
-            в Воронеже
+            в Рязани
           </span>
           <p className="mt-6 max-w-md text-lg leading-relaxed text-ink/70 md:text-xl">
-            Доступный клининг в каждую квартиру и дом Воронежа.
+            Доступный клининг в каждую квартиру и дом Рязани.
             Точная цена за 2 минуты — до приезда, а не после.
           </p>
           <div className="mt-9">
@@ -62,9 +62,9 @@ export default function Hero() {
           </dl>
         </div>
         <div className="relative">
-          <img src="./images/hero-voronezh.webp" alt="Чистый тёплый интерьер с видом на Благовещенский собор в Воронеже" className="aspect-[4/5] w-full rounded-3xl object-cover" fetchPriority="high" />
+          <img src="./images/hero-ryazan.webp" alt="Чистый интерьер с видом на Рязанский кремль" className="aspect-[4/5] w-full rounded-3xl object-cover" fetchPriority="high" />
           <div className="absolute right-4 top-4 rounded-full border border-white/30 bg-graphite/75 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-white backdrop-blur-sm md:right-6 md:top-6">
-            Воронеж · центр города
+            Рязань · центр города
           </div>
           <div className="absolute -bottom-5 -left-5 hidden rounded-2xl bg-white p-5 shadow-card md:block">
             <div className="text-[11px] font-semibold uppercase tracking-widest2 text-emerald">убрано в этом месяце</div>

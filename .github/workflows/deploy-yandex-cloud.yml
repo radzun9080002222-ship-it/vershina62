@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm
     env:
       AWS_ACCESS_KEY_ID: ${{ secrets.YC_STATIC_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.YC_STATIC_SECRET_ACCESS_KEY }}
